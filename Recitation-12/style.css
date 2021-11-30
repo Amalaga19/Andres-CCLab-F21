@@ -1,0 +1,11 @@
+html{
+  background-color: black;
+}
+#canvasContainer{
+  position:absolute;
+  display: block;
+  left: 8%;
+  right:8%;
+  top:100px;
+
+}

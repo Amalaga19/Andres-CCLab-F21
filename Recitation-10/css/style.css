@@ -1,0 +1,50 @@
+
+
+html{
+  background-color: black;
+  font-size: 15px;
+}
+
+
+h1{
+  font-family: sans-serif;
+  color: white;
+}
+h2{
+  font-family: sans-serif;
+  color: white;
+}
+#pageTitle{
+  position:absolute;
+  left:35px;
+}
+#reset{
+  position:absolute;
+  display: inline-block;
+  top:60px;
+  left:680px;
+}
+#canvasContainer{
+  position:absolute;
+  display: block;
+  margin:0px;
+  left:20px;
+  top:80px;
+  padding:15px;
+  height:600px;
+  width:600px;
+  background-color: White;
+}
+
+#cursorWidth{
+  position:absolute;
+  display: inline-block;
+  top: 180px;
+  left:680px;
+}
+#cursorColor{
+  position:absolute;
+  display: inline-block;
+  top: 400px;
+  left:680px;
+}
