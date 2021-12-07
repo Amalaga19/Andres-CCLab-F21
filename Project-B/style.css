@@ -118,8 +118,9 @@ h3{
 #infoLinks{
     display: flex;
     justify-content: space-evenly;
-    margin:20px;
-    padding: 20px;
+    margin-left:20px;
+    margin-right: 20px;
+    padding:0px;
     background-color: dodgerBlue;
   }
 }
