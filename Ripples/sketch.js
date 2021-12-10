@@ -7,6 +7,8 @@ let counter;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   frameRate(10);
+  alert("Click Around!");
+
 }
 
 function draw() {
@@ -26,7 +28,7 @@ function rippleGroup(positionX, positionY) {
   let rippSat = 100;
   let rippBr = 100;
   let rippAlpha = 1;
-  if (keepRipple < 25) {
+  if (keepRipple < 15) {
     ripple = new Ripple(
       bigRippleX,
       bigRippleY,
@@ -35,7 +37,7 @@ function rippleGroup(positionX, positionY) {
       rippBr,
       rippAlpha
     );
-  } else if (keepRipple >= 25) {
+  } else if (keepRipple >= 15) {
     ripple = new Ripple(bigRippleX, bigRippleY, 0, 0, 0, 0);
   }
   superRipple.push(ripple);
