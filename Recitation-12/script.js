@@ -9,6 +9,7 @@ function setup() {
   canvas.parent(canvasContainer);
   cam = createCapture(VIDEO);
   cam.hide();
+  rectMode(CENTER);
   img = createImage(width, height);
   mode = int(random(1,9));
   shape = random();
